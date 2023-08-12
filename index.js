@@ -13,7 +13,7 @@ function increment() {
 
 function save() {
   if (saveEl.innerText === "") {
-    saveEl.textContent = "Previous entries: ";
+    saveEl.textContent = "Previous Entries: ";
     saveEl.textContent += countEl.innerText;
   } else {
     saveEl.textContent += " - " + countEl.innerText;
